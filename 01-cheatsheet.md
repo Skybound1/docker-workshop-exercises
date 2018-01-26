@@ -4,12 +4,12 @@
 
 **`docker image search`** searches for images on Dockerhub
 ```
-docker search ubuntu
+docker image search ubuntu
 ```
 
 **`docker image pull`** downloads images
 ```
-docker pull ubuntu
+docker image pull ubuntu
 ```
 
 **`docker image ls`** lists pulled images
@@ -52,7 +52,7 @@ docker run ubuntu echo hello world
 -v, --volume : named_volume:container/path
 ```
 
-**`docker inspect`** Inspect container
+**`docker inspect`** inspects container
 ```
 docker inspect 13e8cddfdb76
 ```
