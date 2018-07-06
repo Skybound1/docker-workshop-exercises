@@ -4,7 +4,7 @@
 
 **`docker image search`** searches for images on Dockerhub
 ```
-docker image search ubuntu
+docker search ubuntu
 ```
 
 **`docker image pull`** downloads images
@@ -138,3 +138,11 @@ cd /proc/$(docker inspect --format {{.State.Pid}} `docker ps -ql`)/root
 ### Docker Compose
 
 **`docker-compose up`** spins up a `docker-compose.yml`
+
+### Docker Swarm
+
+**`docker swarm init`** initialises a new swarm
+
+**`docker join-token`** gets the tokens to join a new node to the cluster
+
+**`docker stack deploy`** deploys a new stack
